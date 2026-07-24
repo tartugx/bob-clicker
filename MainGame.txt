@@ -7,7 +7,7 @@ Resources
     name: bobs
     desc: bob from retrobyte
 
-Button
+
   *button
     name: bob button
     on click: yield 1 bobs
