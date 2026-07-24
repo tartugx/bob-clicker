@@ -1,13 +1,14 @@
 Let's make a game!
-  name: Bob Clicker
-  author: tartuga
+name:Bob Clicker
+author:tartuga
 
-Resources
-  *bobs
-    name: bobs
-    desc: bob from retrobyte
+*resources
 
+    *bobs
+    name:Bobs
+    desc:Bob from RetroByte
+    start with:0
 
-  *button
-    name: bob button
-    on click: yield 1 bobs
+*button
+name:Bob button
+on click:yield 1 bobs
