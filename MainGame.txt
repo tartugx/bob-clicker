@@ -2,13 +2,13 @@ Let's make a game!
 name:Bob Clicker
 author:tartuga
 
-*resources
-
+Resources
     *bobs
     name:Bobs
     desc:Bob from RetroByte
     start with:0
 
-*button
-name:Bob button
-on click:yield 1 bobs
+Buttons
+    *clickButton
+    name:Bob button
+    on click:yield 1 bobs
