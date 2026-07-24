@@ -2,6 +2,15 @@ Let's make a game!
 name:Bob Clicker
 author:tartuga
 
+CSS
+    #clickButton {
+        display: block;
+        margin: 50px auto;
+        width: 200px;
+        height: 200px;
+    }
+
+
 Resources
     *bobs
     name:Bobs
@@ -12,9 +21,4 @@ Buttons
     *clickButton
     name:Bob button
     icon:https://raw.githubusercontent.com/tartugx/bob-clicker/refs/heads/main/bob.jpg
-    class:bigButton
     on click:yield 1 bobs
-
-Layout
-   *centerBox
-   contains:clickButton
