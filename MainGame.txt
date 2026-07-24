@@ -11,10 +11,10 @@ Resources
 Buttons
     *clickButton
     name:Bob button
-    icon: https://raw.githubusercontent.com/tartugx/bob-clicker/refs/heads/main/bob.jpg
-    class: bigButton
+    icon:https://raw.githubusercontent.com/tartugx/bob-clicker/refs/heads/main/bob.jpg
+    class:bigButton
     on click:yield 1 bobs
 
 Layout
    *centerBox
-   contains: clickButton
+   contains:clickButton
