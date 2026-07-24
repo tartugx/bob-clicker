@@ -1,6 +1,7 @@
 Let's make a game!
-name:Bob Clicker
-author:tartuga
+    name:Bob Clicker
+    author:tartuga
+    version:0.1
 
 CSS
     #clickButton {
