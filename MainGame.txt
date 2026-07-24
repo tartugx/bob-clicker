@@ -10,6 +10,11 @@ CSS
         height: 200px;
     }
 
+    #game.on
+    {
+        background-size: 100% 100%;
+    }
+
 
 Resources
     *bobs
@@ -22,3 +27,7 @@ Buttons
     name:Bob button
     icon:https://raw.githubusercontent.com/tartugx/bob-clicker/refs/heads/main/bob.jpg
     on click:yield 1 bobs
+    class:bigButton hasFlares
+
+Settings
+    background:https://raw.githubusercontent.com/tartugx/bob-clicker/refs/heads/main/bobBg.png
