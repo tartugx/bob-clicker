@@ -1,7 +1,7 @@
 Let's make a game!
     name:Bob Clicker
     author:tartuga
-    version:0.1
+    version:0.2
 
 CSS
     #clickButton {
@@ -14,6 +14,7 @@ CSS
     #game.on
     {
         background-size: 100% 100%;
+        image-rendering: pixelated;
     }
 
 
